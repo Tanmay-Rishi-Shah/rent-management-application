@@ -1,13 +1,20 @@
 import './App.css';
-import AdminLogin from './pages/AdminLogin';
-import Welcome from './pages/Welcome';
+import AddResident from './Components/AddResident';
+import AdminLogin from './Components/AdminLogin';
+import ResidentLogin from './Components/ResidentLogin';
+import Welcome from './Components/Welcome';
+
 
 function App() {
   return (
     <div className="App">
      {/* <Welcome/> */}
 
-<AdminLogin/>
+{/* <AdminLogin/> */}
+
+{/* <ResidentLogin/> */}
+
+<AddResident/>
 
 
     </div>
