@@ -1,24 +1,20 @@
 import React from 'react'
 import './Welcome.css'
+import { Link } from 'react-router-dom';
 
 const Welcome = () => {
   return (
-    <div className='welcomepage'>
-
+    <div class='welcomepage'>
       <div class="welcome">
         Welcome
       </div>
-
       <div class="buttons">
-        <a class="button" href="admin-login.html"><span>Admin</span></a>
+        <Link to="/login"><button>Go to admin</button></Link>
         <br />
         <p>OR</p>
         <br />
-        <a class="button" href="resident-login.html"><span>Resident</span></a>
+        <Link to="/login"><button>Go to resident</button></Link>
       </div>
-
-
-
     </div>
   )
 }

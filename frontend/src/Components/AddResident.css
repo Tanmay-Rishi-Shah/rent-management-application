@@ -148,7 +148,7 @@ body {
   text-decoration: none;
 }
 
-a{
+a {
   width: 70px;
   text-align: center;
   border-radius: 6px;
@@ -159,4 +159,34 @@ a{
   position: relative;
   right: 200px;
   top: 250px;
+}
+
+
+.btn {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  outline: none;
+  padding: var(--space-m) var(--space-l);
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: var(--base-border-radius);
+}
+
+.btn--primary {
+  font-size: calc(var(--font-size) / 1.65);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.065rem;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+}
+
+a {
+  position: relative;
+  right: 500px;
+  text-decoration: none;
 }

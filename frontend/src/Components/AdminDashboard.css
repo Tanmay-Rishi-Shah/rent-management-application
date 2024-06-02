@@ -1,0 +1,121 @@
+.body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.body {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #e0e0e0;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+.sidebar .room-number {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background-color: #bbb;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote {
+    font-size: 24px;
+}
+
+.logout {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.center-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.payment-info {
+    max-width: 200px;
+}
+
+.message-box {
+    background-color: #008b8b;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button.green {
+    background-color: green;
+    color: white;
+}
+
+.button.red {
+    background-color: red;
+    color: white;
+}
+
+.button.black {
+    background-color: black;
+    color: white;
+}
+
+.button.grey {
+    background-color: grey;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
